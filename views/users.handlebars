@@ -1,0 +1,19 @@
+<div>
+    <nav>
+         <a href="/">Home</a>
+        <a href="/price_plans">Price plans</a>
+        <a href="/link_user">Link user</a>
+    </nav>
+
+    <h1>Users with Price plan</h1>
+    <div class="msg">{{messages.linked}}</div>
+    <h3>Price plan : </h3>
+    <div class="names">
+        {{#each allUsers}}
+        <ul>
+            <li>{{this.user_name}}</li>
+        </ul>
+         {{/each}}
+    </div>
+
+</div>

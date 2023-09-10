@@ -1,0 +1,20 @@
+<div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/price_plans">Price plans</a>
+        <a href="/link_user">Link user</a>
+    </nav>
+    <h1>Phone bill widget</h1>
+    <h3>Calculate total phone bill user</h3>
+    <form action="/calc_bill" method="post">
+        <label>Username</label>
+        <input type="text" class="" name="userName"><br>
+         <label>Usage string</label>
+        <input type="text" class="" name="string"><br>
+        <button type="submit">
+            Calculate total phone bill
+        </button><br>
+        <label>Phone bill total</label>
+        <div class="total">Hello {{usernameHome}} Here your total phone bill is {{total}}</div>
+    </form>
+</div>

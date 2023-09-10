@@ -1,0 +1,78 @@
+body{
+    background-color:#899499;
+    
+}
+.container {
+    background-color:#848884;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    width: 80%;
+    padding: 3em;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+select,
+option{
+  padding:0.7em ;
+  width: 20%;
+  
+}
+button{
+    padding: 0.7em;
+    border-radius: 10px;
+    margin: 0.5em;
+
+}
+
+input {
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    width: 20%; /* Make the input elements expand to the full width of their container */
+    padding: 0.5em; /*Adjust the padding as needed for your design */
+    margin-bottom: 10px; /* Add space between the input elements */
+    border: 1px solid #ccc; /* Add a border for a consistent look */
+    border-radius: 5px; /* Round the corners of the input */
+    font-size: 16px; /* Adjust the font size as needed */
+ 
+  }
+  
+  input:focus {
+    border-color:darkgreen; /* Change the border color when the input is focused */
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
+  }
+
+  label {
+    width: 100px; /* Set a fixed width for the label */
+    text-align: right; /* Right-align the label text */
+    margin-right: 10px; /* Add space between the label and input */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  li{
+    padding: 0.3em;
+  }
+
+  .allocate{
+    width: 10%;
+  }
+  .table{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .msg{
+    color: lightgreen;
+  }
+  .errors{
+    color: crimson;
+  }

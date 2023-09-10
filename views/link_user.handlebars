@@ -1,0 +1,23 @@
+<div>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/price_plans">Price plans</a>
+        <a href="/link_user">Link user</a>
+    </nav>
+    <h1>Allocate price plan to username</h1>
+    <div class="">
+        {{messages.errors}}
+    </div>
+    <form action="/link_user" method="post">
+        <label>Username <label><input type="text" name="username"><br>
+        <label>Price plan<label>
+            <select class="plan" name="pricePlan">
+                <option value="">Select Price plan</option>
+                <option value="sms100">SMS 100</option>
+                <option value="call100">CALL 100</option>
+                <option value="textme">TEXT ME</option>
+            </select><br>
+        <button class="allocate" type="submit">Allocate</button>
+    </form>
+
+</div>
